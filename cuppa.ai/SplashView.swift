@@ -14,7 +14,7 @@ struct SplashView: View {
                 VStack(spacing: 0) {
                     // Image with text inside
                     ZStack {
-                        Image("cuppahome") // Replace with the actual image name
+                        Image("cuppahome")
                             .resizable()
                             .scaledToFit()
                             .frame(width: 400, height: 287)
@@ -31,13 +31,15 @@ struct SplashView: View {
                 }
                 
                 // Invisible NavigationLink triggered by a tap
-                NavigationLink(destination: IntroductionView().navigationBarBackButtonHidden(true), isActive: $navigateToIntroduction) {
+                NavigationLink(
+                    destination: IntroductionView().navigationBarBackButtonHidden(true),
+                    isActive: $navigateToIntroduction) {
                     EmptyView()
                 }
             }
             .contentShape(Rectangle()) // Makes the entire ZStack tappable
             .onTapGesture {
-                // Navigate to IntroductionView when tapping anywhere on the SplashView
+                
                 withAnimation(.easeInOut(duration: 0.5)) {
                     navigateToIntroduction = true
                 }
