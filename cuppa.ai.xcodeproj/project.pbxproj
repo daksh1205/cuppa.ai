@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528E4C712BEB7632003594A1 /* cuppa_aiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E4C702BEB7632003594A1 /* cuppa_aiApp.swift */; };
+		528E4C732BEB7632003594A1 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E4C722BEB7632003594A1 /* SplashView.swift */; };
+		528E4C752BEB7633003594A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528E4C742BEB7633003594A1 /* Assets.xcassets */; };
+		528E4C782BEB7633003594A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528E4C772BEB7633003594A1 /* Preview Assets.xcassets */; };
+		528E4C7F2BEB79BA003594A1 /* App_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E4C7E2BEB79BA003594A1 /* App_Colors.swift */; };
+		528E4C932BEB7D4B003594A1 /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 528E4C852BEB7D4B003594A1 /* PlusJakartaSans-Medium.ttf */; };
+		528E4C942BEB7D4B003594A1 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 528E4C862BEB7D4B003594A1 /* PlusJakartaSans-Bold.ttf */; };
+		528E4C952BEB7D4B003594A1 /* PlusJakartaSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 528E4C872BEB7D4B003594A1 /* PlusJakartaSans-Light.ttf */; };
+		528E4C972BEB7D4B003594A1 /* PlusJakartaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 528E4C892BEB7D4B003594A1 /* PlusJakartaSans-ExtraBold.ttf */; };
+		528E4C982BEB7D4B003594A1 /* PlusJakartaSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 528E4C8A2BEB7D4B003594A1 /* PlusJakartaSans-Italic.ttf */; };
+		528E4C992BEB7D4B003594A1 /* PlusJakartaSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 528E4C8B2BEB7D4B003594A1 /* PlusJakartaSans-ExtraLight.ttf */; };
+		528E4C9D2BEB7D4B003594A1 /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 528E4C8F2BEB7D4B003594A1 /* PlusJakartaSans-SemiBold.ttf */; };
+		528E4CA02BEB7D4B003594A1 /* PlusJakartaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 528E4C922BEB7D4B003594A1 /* PlusJakartaSans-Regular.ttf */; };
+		528E4CA22BEB812A003594A1 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E4CA12BEB812A003594A1 /* IntroductionView.swift */; };
+		528E4CAA2BEBA674003594A1 /* CuppaAppClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E4CA92BEBA674003594A1 /* CuppaAppClipApp.swift */; };
+		528E4CAC2BEBA674003594A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E4CAB2BEBA674003594A1 /* ContentView.swift */; };
+		528E4CAE2BEBA675003594A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528E4CAD2BEBA675003594A1 /* Assets.xcassets */; };
+		528E4CB12BEBA675003594A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528E4CB02BEBA675003594A1 /* Preview Assets.xcassets */; };
+		528E4CB62BEBA675003594A1 /* CuppaAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 528E4CA72BEBA673003594A1 /* CuppaAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		528E4CB42BEBA675003594A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 528E4C652BEB7632003594A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528E4CA62BEBA673003594A1;
+			remoteInfo = CuppaAppClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		528E4CBA2BEBA675003594A1 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				528E4CB62BEBA675003594A1 /* CuppaAppClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		528E4C6D2BEB7632003594A1 /* cuppa.ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cuppa.ai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		528E4C702BEB7632003594A1 /* cuppa_aiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cuppa_aiApp.swift; sourceTree = "<group>"; };
+		528E4C722BEB7632003594A1 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		528E4C742BEB7633003594A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		528E4C772BEB7633003594A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		528E4C7E2BEB79BA003594A1 /* App_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Colors.swift; sourceTree = "<group>"; };
+		528E4C842BEB7C79003594A1 /* cuppa-ai-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "cuppa-ai-Info.plist"; sourceTree = SOURCE_ROOT; };
+		528E4C852BEB7D4B003594A1 /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
+		528E4C862BEB7D4B003594A1 /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Bold.ttf"; sourceTree = "<group>"; };
+		528E4C872BEB7D4B003594A1 /* PlusJakartaSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Light.ttf"; sourceTree = "<group>"; };
+		528E4C892BEB7D4B003594A1 /* PlusJakartaSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		528E4C8A2BEB7D4B003594A1 /* PlusJakartaSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Italic.ttf"; sourceTree = "<group>"; };
+		528E4C8B2BEB7D4B003594A1 /* PlusJakartaSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		528E4C8F2BEB7D4B003594A1 /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		528E4C922BEB7D4B003594A1 /* PlusJakartaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Regular.ttf"; sourceTree = "<group>"; };
+		528E4CA12BEB812A003594A1 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		528E4CA72BEBA673003594A1 /* CuppaAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuppaAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		528E4CA92BEBA674003594A1 /* CuppaAppClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuppaAppClipApp.swift; sourceTree = "<group>"; };
+		528E4CAB2BEBA674003594A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		528E4CAD2BEBA675003594A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		528E4CB02BEBA675003594A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		528E4CB22BEBA675003594A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528E4CB32BEBA675003594A1 /* CuppaAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CuppaAppClip.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		528E4C6A2BEB7632003594A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528E4CA42BEBA673003594A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528E4C642BEB7632003594A1 = {
+			isa = PBXGroup;
+			children = (
+				528E4C6F2BEB7632003594A1 /* cuppa.ai */,
+				528E4CA82BEBA674003594A1 /* CuppaAppClip */,
+				528E4C6E2BEB7632003594A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528E4C6E2BEB7632003594A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528E4C6D2BEB7632003594A1 /* cuppa.ai.app */,
+				528E4CA72BEBA673003594A1 /* CuppaAppClip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		528E4C6F2BEB7632003594A1 /* cuppa.ai */ = {
+			isa = PBXGroup;
+			children = (
+				528E4C842BEB7C79003594A1 /* cuppa-ai-Info.plist */,
+				528E4C702BEB7632003594A1 /* cuppa_aiApp.swift */,
+				528E4C722BEB7632003594A1 /* SplashView.swift */,
+				528E4CA12BEB812A003594A1 /* IntroductionView.swift */,
+				528E4C862BEB7D4B003594A1 /* PlusJakartaSans-Bold.ttf */,
+				528E4C892BEB7D4B003594A1 /* PlusJakartaSans-ExtraBold.ttf */,
+				528E4C8B2BEB7D4B003594A1 /* PlusJakartaSans-ExtraLight.ttf */,
+				528E4C8A2BEB7D4B003594A1 /* PlusJakartaSans-Italic.ttf */,
+				528E4C872BEB7D4B003594A1 /* PlusJakartaSans-Light.ttf */,
+				528E4C852BEB7D4B003594A1 /* PlusJakartaSans-Medium.ttf */,
+				528E4C922BEB7D4B003594A1 /* PlusJakartaSans-Regular.ttf */,
+				528E4C8F2BEB7D4B003594A1 /* PlusJakartaSans-SemiBold.ttf */,
+				528E4C7E2BEB79BA003594A1 /* App_Colors.swift */,
+				528E4C742BEB7633003594A1 /* Assets.xcassets */,
+				528E4C762BEB7633003594A1 /* Preview Content */,
+			);
+			path = cuppa.ai;
+			sourceTree = "<group>";
+		};
+		528E4C762BEB7633003594A1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				528E4C772BEB7633003594A1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		528E4CA82BEBA674003594A1 /* CuppaAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				528E4CA92BEBA674003594A1 /* CuppaAppClipApp.swift */,
+				528E4CAB2BEBA674003594A1 /* ContentView.swift */,
+				528E4CAD2BEBA675003594A1 /* Assets.xcassets */,
+				528E4CB22BEBA675003594A1 /* Info.plist */,
+				528E4CB32BEBA675003594A1 /* CuppaAppClip.entitlements */,
+				528E4CAF2BEBA675003594A1 /* Preview Content */,
+			);
+			path = CuppaAppClip;
+			sourceTree = "<group>";
+		};
+		528E4CAF2BEBA675003594A1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				528E4CB02BEBA675003594A1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528E4C6C2BEB7632003594A1 /* cuppa.ai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528E4C7B2BEB7633003594A1 /* Build configuration list for PBXNativeTarget "cuppa.ai" */;
+			buildPhases = (
+				528E4C692BEB7632003594A1 /* Sources */,
+				528E4C6A2BEB7632003594A1 /* Frameworks */,
+				528E4C6B2BEB7632003594A1 /* Resources */,
+				528E4CBA2BEBA675003594A1 /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528E4CB52BEBA675003594A1 /* PBXTargetDependency */,
+			);
+			name = cuppa.ai;
+			productName = cuppa.ai;
+			productReference = 528E4C6D2BEB7632003594A1 /* cuppa.ai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		528E4CA62BEBA673003594A1 /* CuppaAppClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528E4CB72BEBA675003594A1 /* Build configuration list for PBXNativeTarget "CuppaAppClip" */;
+			buildPhases = (
+				528E4CA32BEBA673003594A1 /* Sources */,
+				528E4CA42BEBA673003594A1 /* Frameworks */,
+				528E4CA52BEBA673003594A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CuppaAppClip;
+			productName = CuppaAppClip;
+			productReference = 528E4CA72BEBA673003594A1 /* CuppaAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		528E4C652BEB7632003594A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					528E4C6C2BEB7632003594A1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					528E4CA62BEBA673003594A1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 528E4C682BEB7632003594A1 /* Build configuration list for PBXProject "cuppa.ai" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 528E4C642BEB7632003594A1;
+			productRefGroup = 528E4C6E2BEB7632003594A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528E4C6C2BEB7632003594A1 /* cuppa.ai */,
+				528E4CA62BEBA673003594A1 /* CuppaAppClip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		528E4C6B2BEB7632003594A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528E4C9D2BEB7D4B003594A1 /* PlusJakartaSans-SemiBold.ttf in Resources */,
+				528E4C982BEB7D4B003594A1 /* PlusJakartaSans-Italic.ttf in Resources */,
+				528E4C782BEB7633003594A1 /* Preview Assets.xcassets in Resources */,
+				528E4C942BEB7D4B003594A1 /* PlusJakartaSans-Bold.ttf in Resources */,
+				528E4C932BEB7D4B003594A1 /* PlusJakartaSans-Medium.ttf in Resources */,
+				528E4C972BEB7D4B003594A1 /* PlusJakartaSans-ExtraBold.ttf in Resources */,
+				528E4C952BEB7D4B003594A1 /* PlusJakartaSans-Light.ttf in Resources */,
+				528E4C992BEB7D4B003594A1 /* PlusJakartaSans-ExtraLight.ttf in Resources */,
+				528E4CA02BEB7D4B003594A1 /* PlusJakartaSans-Regular.ttf in Resources */,
+				528E4C752BEB7633003594A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528E4CA52BEBA673003594A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528E4CB12BEBA675003594A1 /* Preview Assets.xcassets in Resources */,
+				528E4CAE2BEBA675003594A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		528E4C692BEB7632003594A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528E4C732BEB7632003594A1 /* SplashView.swift in Sources */,
+				528E4C7F2BEB79BA003594A1 /* App_Colors.swift in Sources */,
+				528E4CA22BEB812A003594A1 /* IntroductionView.swift in Sources */,
+				528E4C712BEB7632003594A1 /* cuppa_aiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528E4CA32BEBA673003594A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528E4CAC2BEBA674003594A1 /* ContentView.swift in Sources */,
+				528E4CAA2BEBA674003594A1 /* CuppaAppClipApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		528E4CB52BEBA675003594A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528E4CA62BEBA673003594A1 /* CuppaAppClip */;
+			targetProxy = 528E4CB42BEBA675003594A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		528E4C792BEB7633003594A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		528E4C7A2BEB7633003594A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		528E4C7C2BEB7633003594A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cuppa.ai/Preview Content\"";
+				DEVELOPMENT_TEAM = K2WPSGXZRH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cuppa-ai-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ionio.cuppa.cuppa-ai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		528E4C7D2BEB7633003594A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cuppa.ai/Preview Content\"";
+				DEVELOPMENT_TEAM = K2WPSGXZRH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cuppa-ai-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ionio.cuppa.cuppa-ai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		528E4CB82BEBA675003594A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CuppaAppClip/CuppaAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CuppaAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = K2WPSGXZRH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CuppaAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = cuppa.ai;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ionio.cuppa.cuppa-ai.Clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		528E4CB92BEBA675003594A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CuppaAppClip/CuppaAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CuppaAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = K2WPSGXZRH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CuppaAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = cuppa.ai;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ionio.cuppa.cuppa-ai.Clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		528E4C682BEB7632003594A1 /* Build configuration list for PBXProject "cuppa.ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528E4C792BEB7633003594A1 /* Debug */,
+				528E4C7A2BEB7633003594A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528E4C7B2BEB7633003594A1 /* Build configuration list for PBXNativeTarget "cuppa.ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528E4C7C2BEB7633003594A1 /* Debug */,
+				528E4C7D2BEB7633003594A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528E4CB72BEBA675003594A1 /* Build configuration list for PBXNativeTarget "CuppaAppClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528E4CB82BEBA675003594A1 /* Debug */,
+				528E4CB92BEBA675003594A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 528E4C652BEB7632003594A1 /* Project object */;
+}
